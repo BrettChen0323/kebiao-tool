@@ -1,0 +1,15 @@
+# 依赖与构建产物
+node_modules/
+android/
+ios/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

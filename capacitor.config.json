@@ -1,0 +1,11 @@
+{
+  "appId": "app.kebiao.tool",
+  "appName": "课表工具",
+  "webDir": "www",
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon",
+      "iconColor": "#4A9EFF"
+    }
+  }
+}

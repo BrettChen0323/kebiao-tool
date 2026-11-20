@@ -1,0 +1,20 @@
+{
+  "name": "kcb-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "课表工具 —— 课程表 / 待办 / 账本，单文件原型 + Capacitor 本地通知打包",
+  "scripts": {
+    "pack": "node tools/pack.js",
+    "cap:add": "cap add android",
+    "cap:sync": "cap sync android",
+    "apk": "npm run cap:sync && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/local-notifications": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
